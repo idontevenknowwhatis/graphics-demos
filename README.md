@@ -1,6 +1,6 @@
 # graphics-demos
 
-Two projects from Intro to Graphics in 2018. 
+Two projects from Intro to Graphics in 2018. Implemented in the Processing language.
 
 ## Project 1
 The first project implements Bezier and quadratic/quintic spline interpolation for control points which define the path of the animated runner. Velocity and acceleration computed from distances/deltas between control points (the runner is to traverse two adjacent points in constant time irrespective of distance) are used to give the runner a realistic swaying behavior. Inverse kinematics is implemented and used to animate the movement of the arms and legs. The dinosaur runner has a physically animated tail which utilizes repeated LERPs from each conic tail element to the tail element it is connected to's position in a prior frame. 
